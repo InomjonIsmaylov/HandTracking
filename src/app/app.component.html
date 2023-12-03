@@ -1,0 +1,10 @@
+<button #enableWebcamButton (click)="service.enableCam($event)">
+  Enable Webcam
+</button>
+
+<video
+  #video
+  (loadeddata)="service.predictWebcam()"
+></video>
+
+<canvas #canvas width="300" height="300"></canvas>
