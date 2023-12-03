@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@mediapipe/drawing_utils": "^0.3.1675466124",
+    "@mediapipe/hands": "^0.4.1675469240",
+    "@mediapipe/tasks-vision": "^0.10.8",
+    "commonjs": "^0.0.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  }
+}
