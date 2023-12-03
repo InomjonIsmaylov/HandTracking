@@ -144,6 +144,7 @@ document.addEventListener("DOMContentLoaded", () =>
     } else
     {
         console.warn("getUserMedia() is not supported by your browser");
+        alert("getUserMedia is not supported by your browser");
     }
 
     // Enable the live webcam view and start detection.

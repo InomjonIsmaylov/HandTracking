@@ -30,11 +30,13 @@ module.exports = {
   devServer: {
     // contentBase: path.join(__dirname, "dist"),
 
-    static: './',
+    static: "./",
 
     compress: true,
 
     port: 9000,
+
+    https: true
   },
 
   mode: "development",
